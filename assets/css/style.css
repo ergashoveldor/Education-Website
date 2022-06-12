@@ -1,0 +1,55 @@
+/* variables.css file import */
+@import url(./variable.css);
+
+/* reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font: inherit;
+}
+
+img,
+span a,
+ion-icon {
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+html {
+  font-family: "Jost", sans-serif;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--red-orange-color-wheel);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ultramarine-blue);
+}
